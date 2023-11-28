@@ -1,0 +1,25 @@
+.step-wizard {
+  .list-group-item,
+  completed-step {
+    span {
+      font-size: 18px !important;
+      width: 45px;
+      height: 45px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .list-group {
+    button {
+      border: none;
+      text-transform: capitalize;
+    }
+  }
+  .content {
+    .wizard-title {
+      text-transform: capitalize;
+    }
+  }
+}
